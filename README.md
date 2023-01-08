@@ -19,3 +19,5 @@ The repository is organised as follows:
 - The `confing.ini` file contains the HTTP path, model path, save frames folder path, save single frames folder path, maximum number of save folders, maximum number of frames in each folder, class names, path to coco.yaml containing all 80 classes in case a pre-trained YOLO V5 is used.
 
 To run the code, you will need to install the libraries in the `requirements.txt` file. We recommend using [PyCharm](https://www.jetbrains.com/pycharm/promo/?source=google&medium=cpc&campaign=14123077402&term=pycharm&gclid=Cj0KCQjw6_CYBhDjARIsABnuSzqkMV4IXzjuVu-enSX0e70lwTUQBmgEFAoSE3uktD045-LG9A0s0acaAqEDEALw_wcB).
+
+All the files must be saved inside the YOLO V5 repository on the user's computer before executing the `main.py` script.
