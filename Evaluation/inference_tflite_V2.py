@@ -14,6 +14,12 @@ import matplotlib.pyplot as plt
 from hubconf import custom
 from inference_args import parse_opt_inference
 
+# @author Andreas Caduff
+
+# @copyright CC Intelligent Sensors and Networks
+# at Lucerne University of Applied Sciences and Arts T & A, Switzerland.
+
+
 
 def main():
     print('\nstart script: {}'.format(__file__))
