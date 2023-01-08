@@ -13,8 +13,6 @@ from args import parse_opt
 from shutil import copyfile
 from sklearn.model_selection import StratifiedKFold
 
-wandb.login(key="d865eb038d328ee5a99df7151fc71324b3837500")
-
 
 def train_fold_csv(csv_file_path, num_folds, use_fold=False):
     if "train_fold.csv" in os.listdir(csv_file_path) and use_fold:
