@@ -30,7 +30,7 @@ The repository is organised as follows:
 - The `train_resume_eval.py` uses the weights of a given model to evaluate its performance. The user has the option to train their model and then evaluate on a given test set.
 - The `args.py` and `inference_args.py` files parse the arguments needed for the execution.
 - The `confing.ini` file contains the path to YOLO V5 repository, the path to train folder, the yaml files needed for each test set, path to test data folders, save path, number of epochs, batch size, and save path for the precision and recall dictionaries.
-- The `confing_infer.ini` file contains the model path, the test images path, the test kabels path, and the output directory to save the evaluation results
+- The `confing_infer.ini` file contains the model path, the test images path, the test labels path, and the output directory to save the evaluation results
 
 
 To run the code, you will need to install the libraries in the `requirements.txt` file. We recommend using [PyCharm](https://www.jetbrains.com/pycharm/promo/?source=google&medium=cpc&campaign=14123077402&term=pycharm&gclid=Cj0KCQjw6_CYBhDjARIsABnuSzqkMV4IXzjuVu-enSX0e70lwTUQBmgEFAoSE3uktD045-LG9A0s0acaAqEDEALw_wcB).
