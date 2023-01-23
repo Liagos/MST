@@ -24,7 +24,7 @@ All the files must be saved inside the YOLO V5 repository on the user's computer
 
 # Evaluate
 
-This repository contains the code for the project "**Evaluate*". The goal of this project is to evaluate the performance of the model. The `inference_tflite_V2.py` is used to calculate the precision and recall of a model by comparing its predictions against corresponding ground truths.
+This repository contains the code for the project "**Evaluate**". The goal of this project is to evaluate the performance of the model. The `inference_tflite_V2.py` is used to calculate the precision and recall of a model by comparing its predictions against corresponding ground truths.
 
 The repository is organised as follows:
 - The `train_resume_eval.py` uses the weights of a given model to evaluate its performance. The user has the option to train their model and then evaluate on a given test set.
