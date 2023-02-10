@@ -60,7 +60,6 @@ class resume_train:
 
     def train(self, n_e, b_s, train_model=False):
         if train_model:
-            wandb.login(key="d865eb038d328ee5a99df7151fc71324b3837500")
 
             yaml_train_file = opt.yamlTrain
             subprocess.run([sys.executable, opt.yoloPath + "/train.py",
